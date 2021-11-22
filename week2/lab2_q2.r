@@ -10,11 +10,11 @@
 # 100 Choose 10 (all the different ways a student can be selected)
 
 # Ctrl + Enter to run (Press on each line of code)
-class = 100
-k = 10
-n = 60
-choose(n, k)/choose(class, k)
-
+class <- 100
+k <- 10
+n <- 60
+choose(n , k)/choose(class, k)
+choose(60, 10) / choose(100, 10)
 # OR
-
 prod(60:51)/prod(100:91)
+prod(n:(n-k+1))

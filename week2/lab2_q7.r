@@ -1,8 +1,11 @@
-x <- sample(c("H", "T"), 32, replace=T)
-x
-table(x)
+# Use R to simulate that the probability of getting a head is .5 if a fair coin is tossed
+# repeatedly (1000 times).
 
+toss <- sample(c("H", "T"), 1000, replace=T)
+toss
+table(toss)/1000
 
+# Extra:
 # 5 heads in a row (HHHHH) same for any sequence (HHTTT)
 1/2 * 1/2 * 1/2 * 1/2 * 1/2
 # OR
